@@ -2,13 +2,57 @@
 by Alex Ramos and Drew Lawton
 
 
+---
+
+### The Browser: A Volatile Platform
+- Multiple operating systems <!-- .element: class="fragment" -->
+- Multiple rendering engines <!-- .element: class="fragment" -->
+- Multiple input systems <!-- .element: class="fragment" -->
+- Variable screen resolution <!-- .element: class="fragment" -->
+- Variable bandwidth <!-- .element: class="fragment" -->
+---
+
+## Why?
+ 
 
 ---
 
+## Quick History
+First Web Server & Browser created at CERN <!-- .element: class="fragment" -->
+![first-server](/slides/first-server.jpg) <!-- .element: class="fragment" -->
 
+Designed for sharing technical documents <br/> between physicists <!-- .element: class="fragment" -->
+
+---
+
+## Quick History
+- Mosaic the first graphical browser <!-- .element: class="fragment" -->
+- Leader of Mosaic team quit, created Netscape <!-- .element: class="fragment" -->
+- Microsoft bought Internet Explorer from Spyglass, Inc.  <!-- .element: class="fragment" -->
+
+
+---
+
+## Browser Wars Commence
+![browser-battle](/slides/browser-battle.jpg)
+
+---
+
+## Designed for documents
+
+---
+
+## The Browser: A Haunted Platform
+- Old browsers die hard <!-- .element: class="fragment" -->
+- Always need to consider least capable <!-- .element: class="fragment" -->
+
+![ie6](/slides/ie6.png) <!-- .element: class="fragment" -->
+
+---
 
 ## Current Browser Landscape
-
+- Tableau link
+- Influx of mobile browsers
 
 
 ---
@@ -16,7 +60,7 @@ by Alex Ramos and Drew Lawton
 
 
 
-## Compatability Resources
+## Compatibility Resources
 
 
 
