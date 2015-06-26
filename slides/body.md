@@ -7,12 +7,12 @@ by Alex Ramos and Drew Lawton
 ## Front-end Engineering
 ### Build consistent UX across: <!-- .element: class="fragment" -->
 <ul>
-	<li class="fragment">Multiple operating systems</a>
-	<li class="fragment">Multiple rendering engines</a>
-	<li class="fragment">Multiple proprietary features</a>
-	<li class="fragment">Variable computing power</a>
-	<li class="fragment">Variable screen resolution</a>
-	<li class="fragment">Variable connection speeds</a>
+	<li class="fragment">Multiple operating systems</a></li>
+	<li class="fragment">Multiple rendering engines</a></li>
+	<li class="fragment">Multiple proprietary features</a></li>
+	<li class="fragment">Variable computing power</a></li>
+	<li class="fragment">Variable screen resolution</a></li>
+	<li class="fragment">Variable connection speeds</a></li>
 </ul>
 ---
 
@@ -23,11 +23,11 @@ by Alex Ramos and Drew Lawton
 
 ## Based on common standards*
 <ul>
-	<li class="fragment">Hypertext Markup Language (HTML) from [W3C](http://www.w3.org/)</a>
-	<li class="fragment">Cascading Styles Sheets (CSS) from [W3C](http://www.w3.org/)</a>
-	<li class="fragment">Document Object Model (DOM) from [W3C](http://www.w3.org/)</a>
-	<li class="fragment">ECMAScript (JavaScript) from [Ecma International](http://www.ecma-international.org/)</a>
-	<li class="fragment">Hyper Text Transfer Protocol (HTTP) from [IETF](https://www.ietf.org/)</a>
+	<li class="fragment">HyperText Markup Language (HTML & XHTML) from [W3C](http://www.w3.org/)</a></li>
+	<li class="fragment">Cascading Styles Sheets (CSS) from [W3C](http://www.w3.org/)</a></li>
+	<li class="fragment">Document Object Model (DOM) from [W3C](http://www.w3.org/)</a></li>
+	<li class="fragment">ECMAScript (JavaScript) from [Ecma International](http://www.ecma-international.org/)</a></li>
+	<li class="fragment">Hyper Text Transfer Protocol (HTTP) from [IETF](https://www.ietf.org/)</a></li>
 </ul>
 <br><br>
 
@@ -36,7 +36,7 @@ by Alex Ramos and Drew Lawton
 
 ## Quick History
 First Web Server & Browser created at CERN <!-- .element: class="fragment" -->
-![first-server](/slides/first-server.jpg) <!-- .element: class="fragment" -->
+![first-server](/slides/images/first-server.jpg) <!-- .element: class="fragment" -->
 
 Designed for sharing technical documents <br/> between physicists <!-- .element: class="fragment" -->
 
@@ -58,7 +58,7 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 ---
 
 ## Browser Wars Commence
-![browser-battle](/slides/browser-battle.jpg)
+![browser-battle](/slides/images/browser-battle.jpg)
 
 ---
 
@@ -68,38 +68,79 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 
 ## A Haunted Platform
 <ul>
-	<li class="fragment">Build for least capable audience</a>
-	<li class="fragment">Old browsers die hard</a>
-	<li class="fragment">~3% of Web Traffic from China is IE6 (14 years old)</a>
+	<li class="fragment">Build for least capable audience</a></li>
+	<li class="fragment">Old browsers die hard</a></li>
+	<li class="fragment">~3% of Web Traffic from China is IE6 (14 years old)</a></li>
 </ul>
 
-![ie6](/slides/ie6.png) <!-- .element: class="fragment" -->
+![ie6](/slides/images/ie6.png) <!-- .element: class="fragment" -->
 
 ---
 
 ## Evergreen browsers
-- Auto-updating, separate from OS version
-- Chrome, Firefox, Safari, IE 10+
+<ul>
+	<li class="fragment">Capable of auto-updating, separate from OS version</a></li>
+	<li class="fragment">Chrome, Firefox, Safari, IE 10+</a></li>
+	<li class="fragment">Starting to happen in mobile browsers also</a></li>
+</ul>
 
 ---
 
 ## Start Your Engines
-- Trident
-- Gecko
-- Webkit (and variants)
-- Presto
+
+<table>
+	<tr style='font-size: 26px; text-align: center;'>
+		<td>Browser</td>
+		<td width="300px">Layout Engine</td>
+		<td>JavaScript Engine</td>
+	</tr>
+	<tr class="fragment">
+		<td>Internet Explorer</td>
+		<td>Trident</td>
+		<td>Chakra</td>
+	</tr>
+	<tr class="fragment">
+		<td>FireFox</td> 
+		<td>Gecko</td>
+		<td>TraceMonkey</td>
+	</tr>
+	<tr class="fragment">
+		<td>Chrome</td>
+		<td>Blink</td>
+		<td>V8</td>
+	</tr>
+	<tr class="fragment">
+		<td>Safari</td>
+		<td>Webkit</td>
+		<td>Nitro</td>		
+	</tr>
+	<tr class="fragment">
+		<td>Opera</td>
+		<td>Presto</td>
+		<td>Carakan</td>
+	</tr>
+</table>
+
+<span class="fragment">* Microsoft Edge fork of Trident engine<br>Opera switched to Blink, V8</span>
 
 ---
 
 ## Current Browser Landscape
-- Tableau link
-- Influx of mobile browsers
+<ul>
+	<li class="fragment"><a href="https://stats/#/views/Bnet-browserinfo-fromdecember2014/BrowserInfo-Global?:iid=1" target="_blank">Blizzard Traffic by Browser</a></li>
+	<li class="fragment">Recent Mobile SEO changes by Google</a></li>
+</ul>
 
 ---
 
 ## Compatibility Resources
-- Caniuse.com
-- Mozilla Developer Network
+<ul>
+	<li class="fragment">Tribal knowledge :(</li>
+	<li class="fragment">[www.caniuse.com](http://caniuse.com) <!-- .element: target="_blank" --></li>
+	<li class="fragment">[www.webplatform.org](https://docs.webplatform.org/wiki/Main_Page) <!-- .element: target="_blank" --></li>
+	<li class="fragment">[Mozilla Developer Network](https://developer.mozilla.org/en-US/) <!-- .element: target="_blank" --></li>
+	<li class="fragment">[Modernizr](http://modernizr.com/) <!-- .element: target="_blank" --></li>
+</ul>
 
 ---
 
