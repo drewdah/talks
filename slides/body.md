@@ -4,15 +4,25 @@ by Alex Ramos and Drew Lawton
 
 ---
 
-### The Browser: A Volatile Platform
-- Multiple operating systems <!-- .element: class="fragment" -->
-- Multiple rendering engines <!-- .element: class="fragment" -->
-- Multiple input systems <!-- .element: class="fragment" -->
-- Variable screen resolution <!-- .element: class="fragment" -->
-- Variable bandwidth <!-- .element: class="fragment" -->
+# The Web Browser
+## a flexible, volatile platform <!-- .element: class="fragment" -->
+
 ---
 
-## Why?
+## Front-end Engineering
+### Build consistent UX across: <!-- .element: class="fragment" -->
+- Multiple operating systems <!-- .element: class="fragment" -->
+- Multiple rendering engines <!-- .element: class="fragment" -->
+- Multiple proprietary features <!-- .element: class="fragment" -->
+- Multiple input systems <!-- .element: class="fragment" -->
+- Variable computing power <!-- .element: class="fragment" -->
+- Variable screen resolution <!-- .element: class="fragment" -->
+- Variable connection speeds <!-- .element: class="fragment" -->
+
+---
+
+## How is this possible?
+### The Web Browser <!-- .element: class="fragment" -->                                           
  
 
 ---
@@ -25,11 +35,9 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 
 ---
 
-## Quick History
-- Mosaic the first graphical browser <!-- .element: class="fragment" -->
-- Leader of Mosaic team quit, created Netscape <!-- .element: class="fragment" -->
-- Microsoft bought Internet Explorer from Spyglass, Inc.  <!-- .element: class="fragment" -->
-
+- ## Mosaic the first graphical browser <!-- .element: class="fragment" -->
+- ## Leader of Mosaic team quit, created Netscape <!-- .element: class="fragment" -->
+- ## Microsoft bought Internet Explorer from Spyglass, Inc.  <!-- .element: class="fragment" -->
 
 ---
 
@@ -89,7 +97,7 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 
 
 ## Javascript & DOM
-<pre><code class="javscript">
+<pre><code class="javascript">
 // get a DOM node by ID
 var element = document.querySelector("#javascript-dom");
 
