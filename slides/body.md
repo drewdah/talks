@@ -4,27 +4,34 @@ by Alex Ramos and Drew Lawton
 
 ---
 
+## Front-end Engineering
+### Build consistent UX across: <!-- .element: class="fragment" -->
+<ul>
+	<li class="fragment">Multiple operating systems</a>
+	<li class="fragment">Multiple rendering engines</a>
+	<li class="fragment">Multiple proprietary features</a>
+	<li class="fragment">Variable computing power</a>
+	<li class="fragment">Variable screen resolution</a>
+	<li class="fragment">Variable connection speeds</a>
+</ul>
+---
+
 # The Web Browser
 ## a flexible, volatile platform <!-- .element: class="fragment" -->
 
 ---
 
-## Front-end Engineering
-### Build consistent UX across: <!-- .element: class="fragment" -->
-- Multiple operating systems <!-- .element: class="fragment" -->
-- Multiple rendering engines <!-- .element: class="fragment" -->
-- Multiple proprietary features <!-- .element: class="fragment" -->
-- Multiple input systems <!-- .element: class="fragment" -->
-- Variable computing power <!-- .element: class="fragment" -->
-- Variable screen resolution <!-- .element: class="fragment" -->
-- Variable connection speeds <!-- .element: class="fragment" -->
+## Based on common standards*
+<ul>
+	<li class="fragment">Hypertext Markup Language (HTML) from [W3C](http://www.w3.org/)</a>
+	<li class="fragment">Cascading Styles Sheets (CSS) from [W3C](http://www.w3.org/)</a>
+	<li class="fragment">Document Object Model (DOM) from [W3C](http://www.w3.org/)</a>
+	<li class="fragment">ECMAScript (JavaScript) from [Ecma International](http://www.ecma-international.org/)</a>
+	<li class="fragment">Hyper Text Transfer Protocol (HTTP) from [IETF](https://www.ietf.org/)</a>
+</ul>
+<br><br>
 
----
-
-## How is this possible?
-### The Web Browser <!-- .element: class="fragment" -->                                           
- 
-
+<span class="fragment"><i>* More like loosely followed recommendations</i></span>
 ---
 
 ## Quick History
@@ -35,9 +42,18 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 
 ---
 
-- ## Mosaic the first graphical browser <!-- .element: class="fragment" -->
-- ## Leader of Mosaic team quit, created Netscape <!-- .element: class="fragment" -->
-- ## Microsoft bought Internet Explorer from Spyglass, Inc.  <!-- .element: class="fragment" -->
+## Quick History (CONT)
+
+<ul>
+<li class="fragment">The first graphical browser: Mosaic</li>
+<li class="fragment">Lead of Mosaic team quit, created Netscape</li>
+</ul>
+
+![browser-battle](/slides/images/netscape-logo.gif) <!-- .element: class="fragment" -->
+
+- Microsoft bought Internet Explorer from Spyglass, Inc.  <!-- .element: class="fragment" -->
+
+![browser-battle](/slides/images/ie6-logo.png) <!-- .element: class="fragment" -->
 
 ---
 
@@ -46,13 +62,16 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 
 ---
 
-## Designed for documents
+# Designed for documents
 
 ---
 
-## The Browser: A Haunted Platform
-- Old browsers die hard <!-- .element: class="fragment" -->
-- Always need to consider least capable <!-- .element: class="fragment" -->
+## A Haunted Platform
+<ul>
+	<li class="fragment">Build for least capable audience</a>
+	<li class="fragment">Old browsers die hard</a>
+	<li class="fragment">~3% of Web Traffic from China using IE6 (14 years old)</a>
+</ul>
 
 ![ie6](/slides/ie6.png) <!-- .element: class="fragment" -->
 
@@ -62,11 +81,7 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 - Tableau link
 - Influx of mobile browsers
 
-
 ---
-
-
-
 
 ## Compatibility Resources
 
