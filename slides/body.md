@@ -70,10 +70,24 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 <ul>
 	<li class="fragment">Build for least capable audience</a>
 	<li class="fragment">Old browsers die hard</a>
-	<li class="fragment">~3% of Web Traffic from China using IE6 (14 years old)</a>
+	<li class="fragment">~3% of Web Traffic from China is IE6 (14 years old)</a>
 </ul>
 
 ![ie6](/slides/ie6.png) <!-- .element: class="fragment" -->
+
+---
+
+## Evergreen browsers
+- Auto-updating, separate from OS version
+- Chrome, Firefox, Safari, IE 10+
+
+---
+
+## Start Your Engines
+- Trident
+- Gecko
+- Webkit (and variants)
+- Presto
 
 ---
 
@@ -84,9 +98,8 @@ Designed for sharing technical documents <br/> between physicists <!-- .element:
 ---
 
 ## Compatibility Resources
-
-
-
+- Caniuse.com
+- Mozilla Developer Network
 
 ---
 
